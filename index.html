@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        [class*="c-"]{
+            width: 200px;
+            height: 400px;
+            overflow: hidden;
+        }
+        .f1, .f2{
+            display: flex;
+        }
+        .c-l1 img{
+            transform: translate(0, 0);
+            opacity: 1;
+            transition: 2s opacity;
+        }
+        .c-l1:hover img{
+            opacity: 0;
+        }
+        .c-l2 img{
+            transform: translate(-200px, 0);
+            opacity: 1;
+            transition: 2s opacity;
+        }
+        .c-l2:hover img{
+            opacity: 0;
+        }
+        .c-l3 img{
+            transform: translate(-400px, 0);
+            opacity: 1;
+            transition: 2s opacity;
+        }
+        .c-l3:hover img{
+            opacity: 0;
+        }
+        .c-l4 img{
+            transform: translate(0, -400px);
+            opacity: 1;
+            transition: 2s opacity;
+        }
+        .c-l4:hover img{
+            opacity: 0;
+        }
+        .c-l5 img{
+            transform: translate(-200px, -400px);
+            opacity: 1;
+            transition: 2s opacity;
+        }
+        .c-l5:hover img{
+            opacity: 0;
+        }
+        .c-l6 img{
+            transform: translate(-400px, -400px);
+            opacity: 1;
+            transition: 2s opacity;   
+        }
+        .c-l6:hover img{
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+ <div class="container">
+  <div class="f1">
+   <div class="c-l1">
+       <img src="img/Chris%20Schoonover%201.jpg" alt="">
+   </div>
+   <div class="c-l2">
+       <img src="img/Chris%20Schoonover%201.jpg" alt="">
+   </div>
+   <div class="c-l3">
+       <img src="img/Chris%20Schoonover%201.jpg" alt="">
+   </div>
+    </div>
+   <div class="f2">
+   <div class="c-l4">
+       <img src="img/Chris%20Schoonover%201.jpg" alt="">
+   </div>
+   <div class="c-l5">
+       <img src="img/Chris%20Schoonover%201.jpg" alt="">
+   </div>
+   <div class="c-l6">
+       <img src="img/Chris%20Schoonover%201.jpg" alt="">
+   </div>
+   </div>
+   </div>
+</body>
+</html>
